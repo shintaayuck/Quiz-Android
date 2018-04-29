@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hmm.quiz.Akhir"
+    android:orientation="vertical"
+    android:background="@color/salem"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Congratulation!"
+        android:layout_marginTop="32dp"
+        android:textColor="@color/hijausupertua"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:fontFamily="casual"/>
+
+    <TextView
+        android:id="@+id/nama_akhirr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Nama"
+        android:textColor="@color/pinktua"
+        android:textStyle="bold|italic"
+        android:textSize="32sp"
+        android:fontFamily="sans-serif-condensed"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Your score is"
+        android:layout_marginTop="32dp"
+        android:textColor="@color/hijausupertua"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:fontFamily="casual"/>
+
+    <TextView
+        android:id="@+id/score_akhir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="100"
+        android:textColor="@color/pinktua"
+        android:textStyle="bold"
+        android:textSize="80sp"
+        android:background="@color/hijaumuda"/>
+
+
+</LinearLayout>

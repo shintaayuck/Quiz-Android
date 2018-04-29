@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="pinktua">#fe4365</color>
+    <color name="pinkmuda">#fc9d9a</color>
+    <color name="salem">#f9cdad</color>
+    <color name="hijaumuda">#c8c8a9</color>
+    <color name="hijautua">#83af9b</color>
+    <color name="hijausupertua">#00695c</color>
+</resources>

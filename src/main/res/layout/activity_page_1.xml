@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hmm.quiz.Page_1"
+    android:background="@color/salem"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="72dp"
+        android:text="10 Steps Korean Skin Care Routine"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@color/pinktua"
+        android:background="@color/pinkmuda"
+        android:gravity="center"
+        android:fontFamily="casual"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/hijautua"
+        android:textStyle="bold"
+        android:fontFamily="casual"/>
+
+    <EditText
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="8dp"
+        android:hint="Nama"
+        android:gravity="center"
+        android:id="@+id/baca_nama"
+        android:fontFamily="casual"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prediksi Nilai"
+        android:textSize="25sp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/hijautua"
+        android:textStyle="bold"
+        android:fontFamily="casual"/>
+
+    <EditText
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="8dp"
+        android:hint="1 - 100"
+        android:gravity="center"
+        android:id="@+id/baca_prediksi"
+        android:fontFamily="casual"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mulai"
+        android:layout_marginTop="16dp"
+        android:id="@+id/btn_mulai"
+        android:fontFamily="casual"/>
+
+
+</LinearLayout>

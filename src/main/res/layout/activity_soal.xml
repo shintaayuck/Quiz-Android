@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hmm.quiz.soal"
+    android:background="@color/salem">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:background="@color/hijaumuda"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_gravity="center_horizontal"
+                android:text="First step of Korean Skincare is..."
+                android:textSize="20sp"
+                android:textColor="@color/pinktua"
+                android:fontFamily="sans-serif-condensed"/>
+
+            <RadioGroup
+                android:id="@+id/soal_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="8dp">
+
+                <RadioButton
+                    android:id="@+id/radio1_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Applying essence"
+                    android:fontFamily="sans-serif-condensed"/>
+
+                <RadioButton
+                    android:id="@+id/radio1_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cleansing"
+                    android:fontFamily="sans-serif-condensed"/>
+
+                <RadioButton
+                    android:id="@+id/radio1_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Applying serum"
+                    android:fontFamily="sans-serif-condensed"/>
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:background="@color/pinkmuda"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_gravity="center_horizontal"
+                android:text="We usually use serums after using..."
+                android:textSize="20sp"
+                android:textColor="@color/hijautua"
+                android:fontFamily="sans-serif-condensed"/>
+
+            <RadioGroup
+                android:id="@+id/soal_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="8dp">
+
+                <RadioButton
+                    android:id="@+id/radio2_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sheet mask"
+                    android:fontFamily="sans-serif-condensed"/>
+
+                <RadioButton
+                    android:id="@+id/radio2_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sun cream"
+                    android:fontFamily="sans-serif-condensed"/>
+
+                <RadioButton
+                    android:id="@+id/radio2_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Essence"
+                    android:fontFamily="sans-serif-condensed"/>
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:background="@color/hijaumuda"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_gravity="center_horizontal"
+                android:text="These are cleansing products:"
+                android:textSize="20sp"
+                android:textColor="@color/pinktua"
+                android:fontFamily="sans-serif-condensed"/>
+
+            <CheckBox
+                android:id="@+id/cbox1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Ampoules"
+                />
+            <CheckBox
+                android:id="@+id/cbox1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Cleansing oil"
+                />
+            <CheckBox
+                android:id="@+id/cbox1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Eye cream"
+                />
+            <CheckBox
+                android:id="@+id/cbox1_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Makeup remover"
+                />
+            <CheckBox
+                android:id="@+id/cbox1_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Booster"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:background="@color/pinkmuda"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_gravity="center_horizontal"
+                android:text="These are treatment products:"
+                android:textSize="20sp"
+                android:textColor="@color/hijautua"
+                android:fontFamily="sans-serif-condensed"/>
+
+            <CheckBox
+                android:id="@+id/cbox2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Boosters"
+                />
+            <CheckBox
+                android:id="@+id/cbox2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Serums"
+                />
+            <CheckBox
+                android:id="@+id/cbox2_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Moisturizer"
+                />
+            <CheckBox
+                android:id="@+id/cbox2_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Sun cream"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:background="@color/hijaumuda"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_gravity="center_horizontal"
+                android:text="We use ... to slough off dead skin cells."
+                android:textSize="20sp"
+                android:textColor="@color/pinktua"
+                android:fontFamily="sans-serif-condensed"/>
+
+            <RadioGroup
+                android:id="@+id/soal_5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:layout_marginBottom="8dp"
+                >
+
+                <RadioButton
+                    android:id="@+id/radio3_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Exfoliator"
+                    android:fontFamily="sans-serif-condensed"/>
+
+                <RadioButton
+                    android:id="@+id/radio3_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Moisturizer"
+                    android:fontFamily="sans-serif-condensed"/>
+
+                <RadioButton
+                    android:id="@+id/radio3_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ampoule"
+                    android:fontFamily="sans-serif-condensed"/>
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="CHECK"/>
+
+
+
+
+    </LinearLayout>
+</ScrollView>
